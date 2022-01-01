@@ -156,6 +156,9 @@ def create_app(test_config = None):
 
     return app   
 
+
+# 명령어 : FLASK_APP=app.py FLASK_DEBUG=1 flask run 
+
 # if __name__ == "__main__":
 #     app.debug = True
 #     app.run()
